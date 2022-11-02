@@ -167,9 +167,9 @@ PlayableDirector:
   m_GameObject: {fileID: 163504526}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 36a644e768e68c24d99d2982c693cfbf, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 2140fa53d7fc45e4fa40c7da61bfb585, type: 2}
   m_InitialState: 0
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -177,6 +177,14 @@ PlayableDirector:
     value: {fileID: 1407269275}
   - key: {fileID: 7140132257051810978, guid: 36a644e768e68c24d99d2982c693cfbf, type: 2}
     value: {fileID: 1407269278}
+  - key: {fileID: -3981730797261284097, guid: 36a644e768e68c24d99d2982c693cfbf, type: 2}
+    value: {fileID: 163504529}
+  - key: {fileID: 8104679465942143745, guid: 2140fa53d7fc45e4fa40c7da61bfb585, type: 2}
+    value: {fileID: 1407269275}
+  - key: {fileID: 7140132257051810978, guid: 2140fa53d7fc45e4fa40c7da61bfb585, type: 2}
+    value: {fileID: 1407269278}
+  - key: {fileID: -3981730797261284097, guid: 2140fa53d7fc45e4fa40c7da61bfb585, type: 2}
+    value: {fileID: 163504529}
   m_ExposedReferences:
     m_References: []
 --- !u!82 &163504529
@@ -644,7 +652,7 @@ GameObject:
   - component: {fileID: 1041673474}
   m_Layer: 0
   m_Name: Trigger
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1507,7 +1515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2155358169863565892, guid: e0a781c065b735b41a847089a684852f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4181337
+      value: 6.88
       objectReference: {fileID: 0}
     - target: {fileID: 2155358169863565892, guid: e0a781c065b735b41a847089a684852f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1548,6 +1556,10 @@ PrefabInstance:
     - target: {fileID: 2155358169863565898, guid: e0a781c065b735b41a847089a684852f, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155358169863565898, guid: e0a781c065b735b41a847089a684852f, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0a781c065b735b41a847089a684852f, type: 3}
